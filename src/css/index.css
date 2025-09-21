@@ -67,6 +67,9 @@ body {
     width: clamp(80px, 15vw, 200px);
     height: auto;
 }
+#logo:hover{
+    cursor:default;
+}
 
 
 @media (max-width: 768px) {
