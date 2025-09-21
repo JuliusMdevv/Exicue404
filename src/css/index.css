@@ -1,6 +1,8 @@
 html, body {
     height: 100%;
     margin: 0;
+    padding: 0.3rem;
+    overflow: hidden;
 }
 
 body {
@@ -38,7 +40,7 @@ background: repeating-linear-gradient(
     font-family: "Rubik Pixels", system-ui;
     font-style: normal;
     margin: 0;
-    text-align: left;
+    /* text-align: left; */
     line-height: 1.6;
 }
 
@@ -53,6 +55,9 @@ background: repeating-linear-gradient(
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
+    }
+
+    #content {
         text-align: center;
     }
 
@@ -67,9 +72,10 @@ background: repeating-linear-gradient(
 
 
 
+
 .text {
     margin: 0;
-    text-align: left;
+    /* text-align: left; */
 }
 
 #t_whoops {
