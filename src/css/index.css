@@ -81,6 +81,7 @@ background: repeating-linear-gradient(
     font-size: clamp(1rem, 1.8vw, 1.5rem);
     font-weight: 400;
     max-width: 40ch;
+    line-height: 1.6;
     
 }
 
