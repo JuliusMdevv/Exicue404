@@ -49,13 +49,23 @@ body {
 #t_whoops {
     font-size: clamp(1.5rem, 3vw, 3rem);
     font-weight: 700;
+    transition-duration: 200ms;
+}
+
+#t_whoops:hover {
+    color: darkcyan;
+    transform: scale(1.05);
+    transition-duration: 200ms;
 }
 
 #content {
     font-size: clamp(1rem, 1.8vw, 1.5rem);
     font-weight: 400;
     max-width: 40ch;
+    
 }
+
+
 
 #logo {
     width: clamp(80px, 15vw, 200px);
@@ -72,4 +82,40 @@ body {
     #logo {
         margin-bottom: 1rem;
     }
+}
+
+#yt {
+    color:aliceblue;
+    text-decoration: none;
+    transition-duration: 200ms;
+}
+
+#yt:hover {
+    transform: scale(1.03);
+    color:red;
+    transition-duration: 300ms;
+}
+
+#tiktok {
+    color:aliceblue;
+    text-decoration: none;
+    transition-duration: 200ms;
+}
+
+#tiktok:hover {
+    transform: scale(1.05);
+    color:cyan;
+    transition-duration: 300ms;
+}
+
+#insta {
+    color:aliceblue;
+    text-decoration: none;
+    transition-duration: 200ms;
+}
+
+#insta:hover {
+    transform: scale(1.03);
+    color:magenta;
+    transition-duration: 300ms;
 }
