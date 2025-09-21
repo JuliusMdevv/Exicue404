@@ -2,13 +2,17 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0.3rem;
+    box-sizing: border-box;
     overflow: hidden;
 }
 
 body {
+
+    
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    position: relative;
     
 
     background: 
@@ -19,6 +23,22 @@ body {
   background-blend-mode: screen; /* colors mix nicely */
 }
 
+#nav {
+    font-size: clamp(0.9rem, 1.6vw, 1.4rem);
+    font-family: "Rubik Pixels", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    border: 0.04rem, solid #3a3a3a;
+    background: #111;
+}
 
 body::before {
     content: "";
@@ -35,17 +55,27 @@ background: repeating-linear-gradient(
     z-index: -1;
 }
 
+#nav a {
+    color:white;
+    /* gap: 20rem; */
+    text-decoration: none;
+}
+
+
+
+
 .allText {
     color: aliceblue;
     font-family: "Rubik Pixels", system-ui;
     font-style: normal;
     margin: 0;
-    /* text-align: left; */
     line-height: 1.6;
 }
 
 .container {
+    flex: auto;
     display: flex;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     gap: 2rem;
