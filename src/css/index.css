@@ -7,6 +7,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
     background: 
             radial-gradient(circle at 20% 30%, rgba(1, 73, 57, 0.4), transparent 60%),
