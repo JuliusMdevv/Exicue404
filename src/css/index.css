@@ -61,6 +61,11 @@ background: repeating-linear-gradient(
         text-align: center;
     }
 
+    #t_whoops {
+        font-size: clamp(2rem, 4.5vw, 4rem);
+        text-align: center;
+    }
+
     #logo {
         transform: scale(1.5);
         margin-bottom: 1rem;
