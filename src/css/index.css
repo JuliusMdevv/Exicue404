@@ -52,11 +52,6 @@ body {
     transition-duration: 200ms;
 }
 
-#t_whoops:hover {
-    color: darkcyan;
-    transform: scale(1.05);
-    transition-duration: 200ms;
-}
 
 #content {
     font-size: clamp(1rem, 1.8vw, 1.5rem);
