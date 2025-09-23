@@ -10,6 +10,8 @@
     transition-duration: 300ms;
 }
 
+
+
 #tiktok {
     color:aliceblue;
     text-decoration: underline;
@@ -33,3 +35,55 @@
     color:magenta;
     transition-duration: 300ms;
 }
+
+
+
+@media (max-width: 768px) {
+    #yt {
+        animation: fadeColorRed 2s infinite;
+        animation-delay: .3s;
+    }
+
+
+
+    #tiktok {
+        animation: fadeColorBlue 2s infinite;
+        animation-delay: .6s;
+    }
+
+    #tiktok:nth-child(2){
+        animation-delay: 500ms;
+    }
+
+    #insta {
+        animation: fadeColorPurple 2s infinite;
+    }
+    
+}
+
+
+
+
+
+
+
+@keyframes fadeColorRed {
+        0% { color: aliceblue; }
+        50% { color: red; }
+        100% { color: aliceblue; }
+        
+    }
+
+@keyframes fadeColorBlue {
+        0% { color: aliceblue; }
+        50% { color: cyan; }
+        100% { color: aliceblue; }
+        
+    }
+
+@keyframes fadeColorPurple {
+        0% { color: aliceblue; }
+        50% { color: magenta; }
+        100% { color: aliceblue; }
+        
+    }
