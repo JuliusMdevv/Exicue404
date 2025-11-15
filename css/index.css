@@ -133,6 +133,8 @@ background: repeating-linear-gradient(
 #logo {
     width: clamp(80px, 15vw, 200px);
     height: auto;
+    box-shadow: black 0px 0px 30px;
+    border-radius: clamp(40px, 7.5vw, 100px);
 }
 #logo:hover{
     cursor:default;
