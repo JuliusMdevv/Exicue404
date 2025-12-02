@@ -16,6 +16,7 @@
     <link rel="shortcut icon" href="./assets/fav.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/fancy.css">
+    <link rel="stylesheet" href="./css/navBurger.css">
 
     <meta property="og:title" content="Exicue">
     <meta property="og:description" content="Exicue is in development — stay tuned for updates, news, and more!">
@@ -25,10 +26,24 @@
     <title>Exicue</title>
 </head>
 <body>
-    <!-- <nav id="nav">
-        <a href="" id="navAboutUs">About Us</a>
-        <a href="./sponsors/" id="navSponsors">Sponsors</a>
-    </nav> -->
+    <div class="off-screen-menu">
+        <a href="./pages/info/">Learn More</a>
+        <a href="./pages/support/">Support Us</a>
+        <a href="./pages/earlyaccess/">Early Access</a>
+    </div>
+
+    <nav class="nav" id="navBar">
+        <div class="ham-menu">
+            <span></span><span></span><span></span>
+        </div>
+        
+
+        <a href="./pages/info/" class="navLinks" id="navLink1">Learn More</a>
+        <a href="./pages/support/" class="navLinks" id="navLink2">Support Us</a>
+        <a href="./pages/earlyaccess/" class="navLinks" id="navLink3">Early Access</a>
+    </nav>
+
+    <img src="./assets/earlyAccessText.png" class="mobile" id="earlyAccessText">
 
 
     <div class="container">
@@ -43,6 +58,8 @@
         </div>
 
     </div>
+
+    <script src="./js/hamburger.js"></script>
 
 </body>
 </html>
